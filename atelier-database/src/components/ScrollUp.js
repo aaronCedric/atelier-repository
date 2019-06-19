@@ -34,7 +34,7 @@ class ScrollUp extends Component {
     render() {
         return (
             <div id='scrollToTop' onClick={this.scrollToTop}>
-                <a href="/">
+                <a href="#">
                     ^
                 </a>
             </div>
