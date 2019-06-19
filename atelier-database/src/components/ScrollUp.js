@@ -5,6 +5,7 @@ class ScrollUp extends Component {
     constructor() {
         super()
         this.handleScroll = this.handleScroll.bind(this)
+        this.scrollToTop = this.scrollToTop.bind(this)
     }
 
     componentDidMount() {
@@ -25,9 +26,14 @@ class ScrollUp extends Component {
         }
     }
 
+    scrollToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
     render() {
         return (
-            <div id='scrollToTop'>
+            <div id='scrollToTop' onClick={this.scrollToTop}>
                 <a href="/">
                     ^
                 </a>

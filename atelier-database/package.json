@@ -2,7 +2,7 @@
   "name": "atelier-database",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aaronCedric.github.io/aaroncedric.github.io/",
+  "homepage": "https://aaronCedric.github.io/atelier-database/",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
