@@ -1,2 +1,3 @@
-# Raw files on my atelier lulua database website  
-Added another repository to store all the files for clear read on the codes
+# Atelier Lulua Database  
+This is a react project website to help filter and search materials in the game.  
+Added another repository to seperate the GH Page repository for easier viewing of the raw files  
